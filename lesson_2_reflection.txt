@@ -5,11 +5,19 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+  The staging area contains only files that have been explicitly added to it. The Working directory is
+  the directory that contains all the local files. The repository contains the files after they've been committed.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  By adding the right file to the staging area before committing, rather than committing all at once
+  directly from the working directory.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+  Whenever one is testing something new.
 
 How do the diagrams help you visualize the branch structure?
 
